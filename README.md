@@ -28,7 +28,7 @@ I am studying Front-End in RSSchool.
 ```javascript
 function multiply(a, b)
 { 
-   return 2 * 6;
+   return a * b;
 }
 ```
 
