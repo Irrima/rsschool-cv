@@ -16,7 +16,7 @@ body{
 .header__title{
   width: 600px;
   height: 300px;
-  background-color: #FBFE7B;
+  background-color: #ffd400;
   margin: 0 auto;
   padding-top: 30px;
   border: 4px solid #000;
@@ -87,20 +87,17 @@ body{
 }
 
 /* about me */
-.about_me{
-  background-color: #DEDEFF;
-}
 .about_me__container__title{
   max-width: 100%;
   height: 58px;
   border: 4px solid #000;
   border-left: none;
   border-right: none;
-  background-color: #FBFE7B;
+  background-color: #ffd400;
   display: flex;
 }
 .about_me__title__span{
-  color: #737ae3;
+  color: #505aeb;
 }
 .about_me__title{
   padding-bottom: 5px;
@@ -117,13 +114,6 @@ body{
   border: 4px solid #000;
   border-top: none;
 }
-.about_me__paragraph__link{
-  text-decoration: none;
-  color: #000;
-}
-.about_me__paragraph__link:hover{
-  color: #737ae3;
-}
 .about_me__paragraph{
   font-size: 18px;
   font-weight: 500;
@@ -133,18 +123,20 @@ body{
 
 /* skils */
 .skils{
-  background-color: #DEDEFF;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .skils__container__title{
-  max-width: 800px;
-  height: 38px;  
-  padding-top: 10px;
+  max-width: 100%;
+  height: 40px;  
+  padding-top: 20px;
   background-color: #8887FF;
   margin: 0 auto;
   padding-top: 5px;
   border: 4px solid #000;
-  border-top: none;
-  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  margin-bottom: 70px;
 }
 .skils__title{
   display: flex;
@@ -175,16 +167,16 @@ body{
   padding-bottom: 22px;
 }
 .skils__items__first_column{
-  background-color: #B3B3B3;
+  background-color: #FBBC8B;
 }
 .skils__items__second_column{
   background-color: #fff;  
 }
 .skils__items__third_column{
-  background-color: #FBBC8B;
+  background-color: #B3B3B3;
 }
 .skils__items__fourth_column{
-  background-color: #B3B3B3;
+  background-color: #8887FF;
 }
 
 /* footer */
@@ -195,7 +187,7 @@ body{
   border: 4px solid #000;
   border-left: none;
   border-right: none;
-  background-color: #FBFE7B;
+  background-color: #ffd400;
   display: flex;
 }
 .footer__contacts__title{
@@ -226,7 +218,7 @@ body{
   color: #000;
 }
 .footer__contacts__items__git:hover{
-  color: #FBFE7B;
+  color: #ffd400;
 }
 .footer__contacts__items__rss{
   display: block;
@@ -243,7 +235,7 @@ body{
 }
 .footer__year{
   height: 50px;
-  background-color: #E4E4E4;
+  /* background-color: #E4E4E4; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
